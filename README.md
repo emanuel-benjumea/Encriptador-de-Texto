@@ -10,4 +10,6 @@ Este decodificador de texto es una herramienta simple pero eficaz para encriptar
 
 Este decodificador tiene un diseño responsive, lo que significa que se puede ver desde cualquier dispositivo, ya sea una computadora de escritorio, una laptop o incluso tu teléfono móvil."
 
+ version para celulares
+ 
 ![frame212](https://user-images.githubusercontent.com/66340501/215235600-ab337334-0cea-40bc-8eef-ddc73eb393b5.png)
