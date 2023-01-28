@@ -12,4 +12,4 @@ Este decodificador tiene un diseño responsive, lo que significa que se puede ve
 
  version para celulares
  
-![frame212](https://user-images.githubusercontent.com/66340501/215235600-ab337334-0cea-40bc-8eef-ddc73eb393b5.png)
+![frame212](https://user-images.githubusercontent.com/66340501/215235793-bd629730-0742-467c-9e8a-fd554191c5a0.png)
