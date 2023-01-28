@@ -6,7 +6,8 @@ Este decodificador de texto es una herramienta simple pero eficaz para encriptar
 
 "¡Mira esta captura de pantalla! y "Descubre el mensaje oculto con nuestro decodificador de texto."
 
-![Frame 1](https://user-images.githubusercontent.com/66340501/215234375-61580255-0792-4a6f-acc1-077ffce36a93.png)
+![frame22](https://user-images.githubusercontent.com/66340501/215235853-1abbd2af-5524-4b01-89dc-27b8f169c00b.png)
+
 
 Este decodificador tiene un diseño responsive, lo que significa que se puede ver desde cualquier dispositivo, ya sea una computadora de escritorio, una laptop o incluso tu teléfono móvil."
 
