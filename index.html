@@ -1,45 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de Texto</title>
-    <link rel="shortcut icon" href="img/iconoencriptado.png" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="shortcut icon" href="img/iconoencriptado.png" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Encriptador de texto</h1>
-    </header>
+  <header>
+    <h1>Encriptador de Texto</h1>
+  </header>
 
 
-    <main>
-        <div class="conteiner">
-            <div class="centrada">
-                <button>Encriptar</button>
-                <div class="area">
-                    <textarea name="text"></textarea>
-                    <button>Copiar</button>
-                </div>
-            </div>
-            <div class="centrada">
-                <button>Desencriptar</button>
-                <div class="area">
-                    <textarea name="text"></textarea>
-                    <button class="boton">Copiar</button>
-                </div>
-            </div>
+  <main class="container">
+    <section class="form box">
+      <form>
+        <div class="botones">
+          <input class="btn" type="button" value="Encriptar" id="botonEncriptar">
+          <input class="btn" type="button" value="Desencriptar" id="botonDesencriptar">
         </div>
-    </main>
+        <label class="textoValor">Escribe el texto en minuscula</label>
+        <br>
+        <div>
+          <textarea class="input" type="text" name="textoValor" id="textoValor">
+          </textarea>
+        </div>
+      </form>
+    </section>
 
-    <footer>
-        <h2>&copy; Desarrollado por Emanuel Benjumea Bejarano</h2>
-    </footer>
+    <section>
+      <h2>Mensaje Encriptado:</h2>
 
+      <input class="texto_final" type="text" id="textoFinal">
+
+    </section>
+
+    <section>
+      <img src="img/3426526.jpg" class="imagen">
+      <input class="btn-copi btn" type="button" value="copiar" id="botoncopiar">
+    </section>
+  </main>
+
+  <footer>
+    <h2>&copy; Desarrollado por Emanuel Benjumea Bejarano</h2>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

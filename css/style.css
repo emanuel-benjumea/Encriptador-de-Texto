@@ -1,9 +1,11 @@
 *{
     font-family: Verdana, sans-serif;
     letter-spacing: 0.8px;
+    text-align: center;
 }
 h1, h2{
     text-align: center;
+    
 }
 
 header h1{
@@ -20,74 +22,88 @@ footer{
     padding-bottom:30px ;
     background-color: #051726;
 }
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom:35px ;
+    background-color: #051726;
+}
 h2{
     padding-top: 50px;
     font-size: 14px;
 }
-
-.conteiner{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    text-align: center;
-
+textarea{
+    height: 20px;
 }
-.centrada button{
+form{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+form .btn{
     background-color:#012340;
     color: #ffffff;
-    
     padding: 0.5em 2.5em 0.5em 2.5em;
     border: 0;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-
-button{
-    margin-bottom: 10px;
-
-}
-.area{
-    
+.btn:hover{
+    background-color: #E28C29;
+    transition: 0.5s ease-in-out all;
 }
 
-.area textarea{
+.container{
+    display: grid;
+    grid-template-columns: 50% 20% 20%;
+
+}
+
+.botones{
+   text-align: center;
+
+}
+
+.input{
+
     width: 90%;
-    height: 700px;
-    resize: none;
-    border-radius: 5px;
-    border:2px solid #000;
-    
    
+    padding-bottom: 600px;
+}
+.texto_final{
+    width: 90%;
+    padding-bottom: 600px;
+    overflow: hidden;
 }
 
-
-
-.area button{
-    background-color:#0460D9;
+.btn-copi{
+    margin-top:20px;
+    background-color:#012340;
     color: #ffffff;
     padding: 0.5em 2.5em 0.5em 2.5em;
     border: 0;
     border-radius: 20px;
-
-
+    margin-bottom: 20px;
 }
-.centrada button:hover{
-    background-color:#0460D9;
+.imagen{
+    width: 100%;
+    padding-top: 50%;
 }
 
-.area button:hover{
-    background-color:#69BF41;
-    transition: 0.5s ease-in-out all;
-
-}
 
 
 @media screen and (max-width:700px){
-    .conteiner{
+    .container{
         grid-template-columns: 100%;
     }
-    .area textarea{
+    .input, texto_final{
         width: 90%;
-        height: 400px;
+        padding-bottom: 60px;
     }
+    img{
+        display: none;
+    }
+
 }
