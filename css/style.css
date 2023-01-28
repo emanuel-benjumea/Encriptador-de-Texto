@@ -98,7 +98,7 @@ form .btn{
     .container{
         grid-template-columns: 100%;
     }
-    .input, texto_final{
+    .input, .texto_final{
         width: 90%;
         padding-bottom: 60px;
     }
