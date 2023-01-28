@@ -14,3 +14,7 @@ Este decodificador tiene un diseño responsive, lo que significa que se puede ve
  version para celulares
  
 ![frame212](https://user-images.githubusercontent.com/66340501/215235793-bd629730-0742-467c-9e8a-fd554191c5a0.png)
+
+si quieres verlo aqui te dejo el enlace para que lo veas 
+
+https://emanuel-benjumea.github.io/Encriptador-de-Texto/
